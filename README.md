@@ -1,16 +1,16 @@
-# Baconitiate
+## Baconitiate
 
 Is it still "art" when "art" reads as something else, like "bacon"? Baconitiate™ is a simple chrome extension that helps you read and meditate on "art" better. It refreshes your reading habits through infiltrating the existential question of art into your routine Internet surfing experiences. Baconitiate™ is a brainchild of Art™ & Capitalism™.
 
-Download Baconitiate in [chrome web store]()
+Download Baconitiate in [chrome web store](https://chrome.google.com/webstore/search/baconitiate)
 
-# Baconist Regular
+## Baconist Regular
 
 Baconist Regular is a capitalized-alphabetical typeface designed for contemporary post-brutalist appetite.
 
 Download Baconist Regular [here](https://github.com/syntaxlogofree/baconitiate/blob/master/Baconist%20Regular/Baconist-Regular.ttf?raw=true)
 
-# Baconist Gradient
+## Baconist Gradient
 ```
 body{
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ab2306+0,e7642c+33,ecc4a5+60,df8749+100 */
