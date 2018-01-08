@@ -9,6 +9,6 @@ Download Baconitiate in [chrome web store]()
 Baconist Regular is a typeface designed for contemporary post-brutalist appetite. 
 
 
-Download Baconist Regular [here]()
+Download Baconist Regular [here](https://github.com/syntaxlogofree/baconitiate/tree/master/Baconist%20Regular)
 
 
