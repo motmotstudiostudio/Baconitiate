@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Baconitiate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">What's your nickname?</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+  
+  <div id="downloads">
+      <div id="baconitiate" class="halfheight">
+          <h1>Baconitiate</h1>
+          <h2>Is it still "art" when "art" reads as something else, like "bacon"? Baconitiate™ is a simple chrome extension that helps you read and meditate on "art" better. It refreshes your reading habits through infiltrating the existential question of art into your routine Internet surfing experiences. Baconitiate™ is a brainchild of Art™ & Capitalism™.</h2>
+           <a class="btn" href="https://chrome.google.com/webstore/search/baconitiate" title="download the typeface">AVAILABLE IN THE CHROME WEB STORE</a>
+      </div>  
+      <div id="baconistregular" class="halfheight">
+          <h1>Baconist Regular</h1>
+          <h2>Baconist Regular is a capitalized-alphabetical typeface designed for your nostalgic brutalist appetite.</h2>
+          <p>The quick brown fox jumps over the lazy dog</p>
+          <input type="range" min="10" max="60">
+          <a class="btn" href="https://github.com/syntaxlogofree/baconitiate/blob/master/Baconist%20Regular/Baconist-Regular.ttf?raw=true" title="download the typeface">DOWNLOAD THE TYPEFACE</a>
+      </div>
+      
+     
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+  <script>
+      $('input').on('change', function () {
+          var v = $(this).val();
+          $('#baconistregular p').css('font-size', v + 'px')
+      });
+   </script>
+</body>
+</html>
